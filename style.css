@@ -445,8 +445,8 @@ display: none;
     }
 
     .section_A {
-        margin-top: 78%;
-        height: 80vh;
+        margin-top: 100%;
+        height: 60vh;
         width: 100%;
         /* border: 1px solid black; */
         margin-left: 0%;
@@ -464,7 +464,8 @@ display: none;
         position: relative;
         left: 0;
         right: 0;
-        bottom: 142%;
+        bottom: 165%;
+       
     }
 
     .topic {
