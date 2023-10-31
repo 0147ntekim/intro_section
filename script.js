@@ -6,6 +6,7 @@ const drpdwnNav1=document.querySelector('.drpdwn-nav0')
 const dropdownCompany=document.querySelector('.drpdwn-content2')
 const dropdownFeature=document.querySelector('.drpdwn-content')
 const snapHead= document.querySelector('.snap-head')
+const register = document.querySelector('.registration')
 
 hamburger.addEventListener('click', openNav)
 closeNav.addEventListener('click', closeNavBar)
@@ -16,6 +17,7 @@ function openNav(){
     closeNav.classList.add('open-nav')
     hamburger.classList.add('close-hamburger')
     navLinks.classList.add('open-mobile-nav')
+    register.classList.add('reg')
     
 }
 function closeNavBar(){
@@ -23,7 +25,7 @@ function closeNavBar(){
     closeNav.classList.remove('open-nav')
     // hamburger.classList.add('reveal-hamburger')
     navLinks.classList.remove('open-mobile-nav')
-    console.log(4)
+    register.classList.remove('reg')
 }
 function dropMore(e){
     e.preventDefault()
@@ -35,6 +37,5 @@ function dropMore(e){
 function dropMore2(e){
     e.preventDefault()
     dropdownCompany.classList.toggle('dropdownFeat')
-    dropdownFeature.classList.remove('dropdownFeat') 
-  
+    dropdownFeature.classList.remove('dropdownFeat')
 }
